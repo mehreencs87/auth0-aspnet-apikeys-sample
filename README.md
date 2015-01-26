@@ -31,3 +31,11 @@ var client = new Auth0.Client("aJ720Y4ZCU97EsAfNabs4lLW3GzfTGE0", "tenant.auth0.
 var token = client.LoginUser("client01-serviceidentity@mycompany.com", "abc", 
     "Username-Password-Authentication", "openid profile");
 ```
+
+## Author
+
+[Auth0](auth0.com)
+
+## License
+
+This project is licensed under the MIT license. See the [LICENSE](LICENSE.txt) file for more info.
